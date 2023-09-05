@@ -1,0 +1,17 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: linear-gradient(0deg, rgba(70,34,121,1) 0%, rgba(47,14,68,1) 40%, rgba(52,11,56,1) 76%, rgba(1,2,10,1) 100%);;;;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: 0.1s; /* Agregar transición suave para el movimiento */
+  }
