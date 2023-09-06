@@ -13,5 +13,13 @@ body
     width: 100px;
     height: 100px;
     position: absolute;
-    transition: 0.1s; /* Agregar transición suave para el movimiento */
+    transition: 0.1s;  /* Agregar transición suave para el movimiento */
   }
+
+.proyectil {
+    width: 10px;
+    height: 5px;
+    background-color: red; /* Color del proyectil, puedes personalizarlo */
+    position: absolute;
+    display: none; /* Inicialmente oculto */
+}
