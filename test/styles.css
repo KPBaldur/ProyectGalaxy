@@ -1,20 +1,32 @@
-*{
-    
+*{ 
     margin: 0;
     padding: 0;
+    height: 500px;
+    width: 1000px;
 }
 
 body
 {
+    background: #343434;
+}
+
+.pantalla {
+    width: 80%;
+    height: 70%;
     background: linear-gradient(0deg, rgba(70,34,121,1) 0%, rgba(47,14,68,1) 40%, rgba(52,11,56,1) 76%, rgba(1,2,10,1) 100%);;;;
 }
 
 .caja {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     position: absolute;
     transition: 0.1s;  /* Agregar transición suave para el movimiento */
   }
+
+.caja img {
+    width: 50px;
+    height: 50px;
+}
 
 .proyectil {
     width: 10px;
